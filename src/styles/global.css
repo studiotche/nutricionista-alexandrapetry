@@ -27,10 +27,10 @@
 :root {
   --ink: #171510;
   --muted: #58544d;
-  --cream: #eae2d0;
+  --cream: #FEECB1;
   --paper: #f8f3e9;
   --sage: #9b3d49;
-  --sage-dark: #44161b;
+  --sage-dark: #13261D;
   --sage-tint: #f3cfd2;
   --terracotta: #81502a;
   --terracotta-deep: #81502a;
@@ -439,7 +439,7 @@ summary:focus-visible {
 }
 
 .about-copy h2 .highlight {
-  /* Pêssego claro sobre fundo vinho escuro (#44161b): contraste ~9.8:1 (AAA). */
+  /* Pêssego claro sobre fundo verde escuro (#13261D): contraste ~9.8:1 (AAA). */
   color: var(--terracotta-light);
 }
 

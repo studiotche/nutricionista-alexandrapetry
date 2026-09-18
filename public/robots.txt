@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://studiotche.github.io/nutricionista-camiladaer/sitemap-index.xml
+Sitemap: https://studiotche.github.io/nutricionista-luisascheffler/sitemap-index.xml

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 190" width="440" height="190">
+  <defs>
+    <linearGradient id="roseGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b6636d" />
+      <stop offset="45%" stop-color="#d9959c" />
+      <stop offset="70%" stop-color="#9b3d49" />
+      <stop offset="100%" stop-color="#81502a" />
+    </linearGradient>
+    <style>
+      .monogram {
+        font-family: 'Newsreader', Georgia, 'Playfair Display', serif;
+        font-style: italic;
+        font-size: 76px;
+        font-weight: 400;
+        fill: url(#roseGold);
+      }
+      .name {
+        font-family: 'Newsreader', Georgia, 'DM Sans', serif;
+        font-size: 38px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        fill: #3b3734;
+      }
+      .subtitle {
+        font-family: 'DM Sans', Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: 7px;
+        fill: #6e675f;
+        text-anchor: middle;
+      }
+      .flourish {
+        stroke: url(#roseGold);
+        stroke-width: 2.2;
+        fill: none;
+        stroke-linecap: round;
+      }
+      .heart {
+        fill: url(#roseGold);
+      }
+    </style>
+  </defs>
+
+  <!-- Elegant subtle flourish curves -->
+  <path class="flourish" d="M 50 64 C 95 62, 125 50, 150 68" opacity="0.8" />
+  
+  <!-- Monogram text -->
+  <text x="220" y="74" text-anchor="middle" class="monogram">ls</text>
+  
+  <!-- Right flourish trailing into tiny heart -->
+  <path class="flourish" d="M 270 66 C 305 48, 340 58, 368 52" opacity="0.8" />
+  <path class="heart" d="M 374 48 C 374 45, 371 43, 368 45 C 365 43, 362 45, 362 48 C 362 52, 368 56, 368 56 C 368 56, 374 52, 374 48 Z" />
+
+  <!-- Name -->
+  <text x="220" y="128" text-anchor="middle" class="name">Luisa Scheffler</text>
+
+  <!-- Subtitle -->
+  <text x="223" y="158" class="subtitle">NUTRICIONISTA</text>
+</svg>

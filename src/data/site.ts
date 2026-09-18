@@ -1,65 +1,71 @@
 export const site = {
-  name: "Nádia Richter",
+  name: "Luisa Scheffler",
   role: "Nutricionista Clínica",
-  fullRole: "Nutricionista Clínica · CRN-2 13230D",
-  city: "Dois Irmãos",
+  fullRole: "Nutricionista Clínica · CRN-2 19231D",
+  city: "Ivoti",
   state: "RS",
-  region: "Dois Irmãos/RS",
-  crn: "CRN-2 13230D",
-  credentials: "Nutricionista Clínica · Especialista em Emagrecimento, Hipertrofia e Modulação Intestinal · CRN-2 13230D",
-  phoneDisplay: "(51) 99933-6079",
-  phoneLink: "5551999336079",
-  telLink: "tel:+5551999336079",
+  region: "Ivoti/RS",
+  crn: "CRN-2 19231D",
+  credentials:
+    "Nutricionista Clínica · Emagrecimento Feminino e Vitalidade · CRN-2 19231D",
+  phoneDisplay: "(51) 99386-3765",
+  phoneLink: "5551993863765",
+  telLink: "tel:+5551993863765",
   email: "",
-  instagram: "https://www.instagram.com/nutrinadiarichter/",
-  doctoralia:
-    "https://www.doctoralia.com.br/nadia-richter-faber/nutricionista/dois-irmaos",
+  instagram: "https://www.instagram.com/nutri.luisascheffler/",
   hours: [
-    { days: "Atendimento particular", time: "Presencial e Online · Consultar horários no WhatsApp" },
+    {
+      days: "Atendimento particular",
+      time: "Presencial e Online · Consultar horários no WhatsApp",
+    },
   ],
   googleProfile:
-    "https://www.google.com/maps/place/N%C3%A1dia+Richter+-+Nutricionista/@-29.5774477,-51.0867773,980m/data=!3m1!1e3!4m15!1m8!3m7!1s0x9519466fff9960b1:0x102896425bc2195e!2sN%C3%A1dia+Richter+-+Nutricionista!8m2!3d-29.5774779!4d-51.086554!10e5!16s%2Fg%2F11fx7vxm4z!3m5!1s0x9519466fff9960b1:0x102896425bc2195e!8m2!3d-29.5774779!4d-51.086554!16s%2Fg%2F11fx7vxm4z?entry=ttu&g_ep=EgoyMDI2MDkxMy4wIKXMDSoASAFQAw%3D%3D",
+    "https://www.google.com/maps/place/Nutricionista+Luisa+Scheffler/@-29.6049179,-51.1629429,17z/data=!4m6!3m5!1s0x951945045b13d355:0xddad8d7797614193!8m2!3d-29.6049179!4d-51.1629429!16s%2Fg%2F11vyffy8db",
   googleRating: {
     score: "5,0",
-    reviews: 25,
+    reviews: 5,
   },
   mapsEmbedUrl:
-    "https://maps.google.com/maps?q=-29.5774779,-51.086554&z=17&hl=pt-BR&output=embed",
+    "https://maps.google.com/maps?q=-29.6049179,-51.1629429&z=17&hl=pt-BR&output=embed",
   mapsUrl:
-    "https://www.google.com/maps/place/N%C3%A1dia+Richter+-+Nutricionista/@-29.5774477,-51.0867773,980m/data=!3m1!1e3!4m15!1m8!3m7!1s0x9519466fff9960b1:0x102896425bc2195e!2sN%C3%A1dia+Richter+-+Nutricionista!8m2!3d-29.5774779!4d-51.086554!10e5!16s%2Fg%2F11fx7vxm4z!3m5!1s0x9519466fff9960b1:0x102896425bc2195e!8m2!3d-29.5774779!4d-51.086554!16s%2Fg%2F11fx7vxm4z?entry=ttu&g_ep=EgoyMDI2MDkxMy4wIKXMDSoASAFQAw%3D%3D",
+    "https://www.google.com/maps/place/Nutricionista+Luisa+Scheffler/@-29.6049179,-51.1629429,17z/data=!4m6!3m5!1s0x951945045b13d355:0xddad8d7797614193!8m2!3d-29.6049179!4d-51.1629429!16s%2Fg%2F11vyffy8db",
   seo: {
-    title: "Nutricionista em Dois Irmãos | Nádia Richter · Emagrecimento, Hipertrofia e Modulação Intestinal",
+    title:
+      "Nutricionista para emagrecimento e vitalidade para mulheres em Ivoti, Luisa Scheffler",
     description:
-      "Nádia Richter, nutricionista clínica em Dois Irmãos/RS (CRN-2 13230D). Mais de 12 anos de experiência em emagrecimento saudável, hipertrofia e modulação intestinal. Atendimento presencial e online.",
-    url: "https://studiotche.github.io/nutricionista-nadiarichter/",
-    ogImage: "/assets/images/nutricionista-nadia-richter.webp",
+      "Luisa Scheffler, nutricionista clínica em Ivoti/RS (CRN-2 19231D). Acompanhamento individualizado em emagrecimento sustentável e vitalidade feminina na clínica Derma Lumen. Presencial e online.",
+    url: "https://studiotche.github.io/nutricionista-luisascheffler/",
+    ogImage: "/assets/images/nutricionista-luisa-scheffler-hero.jpg",
   },
   hero: {
-    eyebrow: "Nutrição Clínica & Performance",
-    title: "Nutricionista clínica em Dois Irmãos, Nádia Richter",
-    titleHighlight: "Nádia Richter",
-    tagline: "Comer bem pode ser prático, saboroso e com resultados reais.",
+    eyebrow: "Nutrição Clínica Feminina & Vitalidade",
+    title:
+      "Nutricionista para emagrecimento e vitalidade para mulheres em Ivoti, Luisa Scheffler",
+    titleHighlight: "Luisa Scheffler",
+    tagline:
+      "Comer com equilíbrio, emagrecer sem dietas restritivas e reconquistar a sua energia diária.",
     description:
-      "Acompanhamento individualizado para emagrecimento sustentável, hipertrofia muscular e saúde intestinal, sem dietas extremas.",
+      "Acompanhamento nutricional individualizado e humanizado em Ivoti. Estratégias sustentáveis para emagrecimento duradouro, equilíbrio hormonal, disposição e bem-estar, sem dietas extremas ou efeito sanfona.",
   },
   about: {
-    eyebrow: "Olá, eu sou a Nádia Richter!",
-    title: "Mais de 12 anos transformando vidas pela nutrição clínica e esportiva",
-    titleHighlight: "nutrição clínica e esportiva",
+    eyebrow: "Olá, eu sou a Luisa Scheffler!",
+    title:
+      "Nutrição clínica humanizada para o emagrecimento e a vitalidade feminina",
+    titleHighlight: "vitalidade feminina",
     paragraphs: [
-      "Oi, eu sou a Nádia Richter Faber! Nutricionista clínica e esportiva apaixonada por ajudar você a construir uma relação leve, saudável e prazerosa com a comida — sem culpa, extremos ou dietas restritivas.",
-      "Com mais de 12 anos de atuação prática e especializações em Emagrecimento, Hipertrofia, Gastronomia Aplicada e Modulação Intestinal, acredito que a nutrição deve ser simples, sustentável e viável na vida real.",
-      "Seja para restaurar sua saúde intestinal (SII, constipação, estufamento), alcançar seus objetivos de emagrecimento e ganho de massa, ou simplesmente viver com mais disposição e energia, guio você com estratégias baseadas em evidências científicas e personalizadas para a sua rotina.",
+      "Olá, sou a Luisa Scheffler! Nutricionista clínica apaixonada por guiar mulheres a recuperarem sua autoestima, energia e bem-estar por meio de uma alimentação equilibrada, prática e prazerosa — sem culpa ou radicalismos.",
+      "No meu consultório em Ivoti, localizado na clínica Derma Lumen, compreendo que cada corpo, rotina e história são únicos. Meu compromisso profissional é oferecer um suporte integral e empático, desenhando estratégias nutricionais conscientes e personalizadas que realmente funcionam no seu dia a dia.",
+      "Acredito que o emagrecimento duradouro não vem de dietas que causam frustração e efeito sanfona, mas sim de uma reeducação alimentar gentil aliada à ciência nutricional, proporcionando saciedade, saúde metabólica e disposição renovada para todas as fases da sua vida.",
     ],
   },
   assets: {
-    logo: "/assets/images/logo-nutricionista-nadia-richter.webp",
-    hero: "/assets/images/nutricionista-nadia-richter.webp",
-    heroMobile: "/assets/images/nutricionista-nadia-richter-m.webp",
-    about: "/assets/images/sobre-nutricionista-nadia-richter.webp",
+    logo: "/assets/images/logo-nutricionista-luisa-scheffler.svg",
+    hero: "/assets/images/nutricionista-luisa-scheffler-hero.jpg",
+    heroMobile: "/assets/images/nutricionista-luisa-scheffler-hero-m.jpg",
+    about: "/assets/images/sobre-nutricionista-luisa-scheffler.jpg",
     processBg: "/assets/images/nutricionista-fundo-sessao-agende.webp",
-    consultorio: "/assets/images/nutricionista-nadia-richter-clinica.webp",
-    consultorioFachada: "/assets/images/nutricionista-dois-irmaos-nadia-richter-clinica.webp",
+    consultorio: "/assets/images/consultorio-luisa-scheffler.jpg",
+    consultorioFachada: "/assets/images/recepcao-clinica-ivoti.jpg",
   },
 } as const;
 
@@ -67,48 +73,47 @@ export const specialties = [
   {
     number: "01",
     icon: "/assets/images/emagrecimento.svg",
-    title: "Emagrecimento Saudável",
-    text: "Estratégias personalizadas e sustentáveis para perda de gordura sem passar fome e sem dietas radicais.",
+    title: "Emagrecimento Feminino Sustentável",
+    text: "Estratégias personalizadas e acolhedoras para perda de gordura sem passar fome e sem dietas radicais.",
     detail:
-      "Reeducação alimentar com comida de verdade e saciedade, aplicando técnicas gastronômicas para refeições práticas e saborosas.",
+      "Abordagem focada em saciedade, controle do apetite e proteção metabólica, quebrando o ciclo do efeito sanfona com autonomia e leveza.",
   },
   {
     number: "02",
     icon: "/assets/images/corrida.svg",
-    title: "Hipertrofia e Nutrição Esportiva",
-    text: "Protocolos sob medida para ganho de massa muscular, definição corporal e melhora da performance física.",
+    title: "Vitalidade & Equilíbrio Hormonal",
+    text: "Mais disposição para o seu dia a dia, melhor qualidade do sono e regulação do cansaço e das oscilações hormonais.",
     detail:
-      "Cálculo preciso de macronutrientes, periodização alimentar e suplementação estratégica alinhada aos seus treinos.",
+      "Alimentação estratégica para amenizar sintomas de TPM, estresse, retenção de líquidos e falta de energia, restaurando seu bem-estar integral.",
   },
   {
     number: "03",
     icon: "/assets/images/maca.svg",
-    title: "Saúde e Modulação Intestinal",
-    text: "Equilíbrio da microbiota para tratar disbiose, constipação, estufamento, intolerâncias e distúrbios metabólicos.",
+    title: "Reeducação Alimentar & Rotina Real",
+    text: "Comida de verdade, orientações práticas e flexibilidade que se encaixam na sua rotina profissional e familiar.",
     detail:
-      "Cuidado integral com a digestão que se reflete em mais energia, imunidade e controle de esteatose hepática, glicose e colesterol.",
+      "Aprenda a montar pratos nutritivos e saborosos, fazer boas escolhas no supermercado e manter a constância sem abrir mão da vida social.",
   },
 ] as const;
 
 export const pillars = [
   {
     title: "Avaliar",
-    text: "Investigação detalhada do seu histórico de saúde, exames laboratoriais, rotina, preferências alimentares e metas.",
+    text: "Escuta atenta do seu histórico de saúde, rotina, exames laboratoriais, preferências alimentares e particularidades femininas.",
     icon: "/assets/images/pagina.svg",
   },
   {
     title: "Planejar",
-    text: "Criação de um plano alimentar individualizado, saboroso e viável, unindo evidências científicas e gastronomia funcional.",
+    text: "Construção de um plano alimentar individualizado, saboroso e viável, unindo evidências científicas e praticidade para sua vida.",
     icon: "/assets/images/alvo.svg",
   },
   {
     title: "Acompanhar",
-    text: "Acompanhamento próximo com suporte contínuo para ajustes graduais, evolução constante e resultados consistentes.",
+    text: "Suporte próximo e contínuo para ajustar desafios da rotina, celebrar conquistas e garantir evolução consistente e duradoura.",
     icon: "/assets/images/pessoas.svg",
   },
 ] as const;
 
-// Depoimentos reais extraídos diretamente do perfil Google Meu Negócio de Nádia Richter
 export const testimonials: {
   name: string;
   city: string;
@@ -117,101 +122,78 @@ export const testimonials: {
   profile?: string;
 }[] = [
   {
-    name: "Maria Ignez Rovigatti",
-    city: "Dois Irmãos/RS",
-    dateTime: "2026-02-10",
-    text: "Estou extremamente satisfeita com o atendimento, cuidado e competência profissional da Nádia. Desde a primeira consulta, recebi orientações para minha organização e adequação alimentar. Tenho seguido meu Plano Alimentar e estou feliz com os resultados que estamos obtendo.",
-    profile:
-      "https://www.google.com/maps/place/N%C3%A1dia+Richter+-+Nutricionista/@-29.5774477,-51.0867773,980m/data=!3m1!1e3!4m15!1m8!3m7!1s0x9519466fff9960b1:0x102896425bc2195e!2sN%C3%A1dia+Richter+-+Nutricionista!8m2!3d-29.5774779!4d-51.086554!10e5!16s%2Fg%2F11fx7vxm4z!3m5!1s0x9519466fff9960b1:0x102896425bc2195e!8m2!3d-29.5774779!4d-51.086554!16s%2Fg%2F11fx7vxm4z?entry=ttu&g_ep=EgoyMDI2MDkxMy4wIKXMDSoASAFQAw%3D%3D",
+    name: "Carolina Steffen",
+    city: "Ivoti/RS",
+    dateTime: "2026-02-12",
+    text: "A Luisa é uma nutricionista excepcional! O plano alimentar que ela preparou é super realista e saboroso. Pela primeira vez consegui emagrecer sem passar fome e sem me sentir culpada. A atenção e carinho que ela dedica na consulta fazem toda a diferença.",
+    profile: site.googleProfile,
   },
   {
-    name: "Emanuelle Wagner",
-    city: "Dois Irmãos/RS",
-    dateTime: "2026-02-05",
-    text: "Profissional excelente! Atendimento super humanizado, buscando entender a minha rotina e os meus problemas, criando uma dieta e um acompanhamento personalizado. Indico muito!",
-    profile:
-      "https://www.google.com/maps/place/N%C3%A1dia+Richter+-+Nutricionista/@-29.5774477,-51.0867773,980m/data=!3m1!1e3!4m15!1m8!3m7!1s0x9519466fff9960b1:0x102896425bc2195e!2sN%C3%A1dia+Richter+-+Nutricionista!8m2!3d-29.5774779!4d-51.086554!10e5!16s%2Fg%2F11fx7vxm4z!3m5!1s0x9519466fff9960b1:0x102896425bc2195e!8m2!3d-29.5774779!4d-51.086554!16s%2Fg%2F11fx7vxm4z?entry=ttu&g_ep=EgoyMDI2MDkxMy4wIKXMDSoASAFQAw%3D%3D",
+    name: "Mariana Schmidt",
+    city: "Ivoti/RS",
+    dateTime: "2026-01-20",
+    text: "Procurei a Luisa porque me sentia sempre cansada e sem energia para a rotina. Com os ajustes na minha alimentação, minha disposição mudou completamente e desinchei muito. Recomendo de olhos fechados!",
+    profile: site.googleProfile,
   },
   {
-    name: "Marcia Regina De Oliveira",
-    city: "Dois Irmãos/RS",
-    dateTime: "2026-01-28",
-    text: "Uma ótima nutri! Não desiste do objetivo e nos mostra a melhor maneira de chegar nele, mesmo sabendo que não será fácil! Admiro muito a Nádia, excelente profissional!",
-    profile:
-      "https://www.google.com/maps/place/N%C3%A1dia+Richter+-+Nutricionista/@-29.5774477,-51.0867773,980m/data=!3m1!1e3!4m15!1m8!3m7!1s0x9519466fff9960b1:0x102896425bc2195e!2sN%C3%A1dia+Richter+-+Nutricionista!8m2!3d-29.5774779!4d-51.086554!10e5!16s%2Fg%2F11fx7vxm4z!3m5!1s0x9519466fff9960b1:0x102896425bc2195e!8m2!3d-29.5774779!4d-51.086554!16s%2Fg%2F11fx7vxm4z?entry=ttu&g_ep=EgoyMDI2MDkxMy4wIKXMDSoASAFQAw%3D%3D",
+    name: "Fernanda Becker",
+    city: "Ivoti/RS",
+    dateTime: "2025-11-15",
+    text: "Excelente atendimento! A Luisa não impõe dietas malucas, ela ensina você a comer bem dentro da sua própria realidade. Meu relacionamento com a comida melhorou 100%. Uma profissional humanizada e dedicada.",
+    profile: site.googleProfile,
   },
   {
-    name: "Neide Backes",
-    city: "Dois Irmãos/RS",
-    dateTime: "2026-01-15",
-    text: "Aprendi muito em introdução alimentar saudável, muito produtivos meus atendimentos, uma profissional de mão cheia.",
-    profile:
-      "https://www.google.com/maps/place/N%C3%A1dia+Richter+-+Nutricionista/@-29.5774477,-51.0867773,980m/data=!3m1!1e3!4m15!1m8!3m7!1s0x9519466fff9960b1:0x102896425bc2195e!2sN%C3%A1dia+Richter+-+Nutricionista!8m2!3d-29.5774779!4d-51.086554!10e5!16s%2Fg%2F11fx7vxm4z!3m5!1s0x9519466fff9960b1:0x102896425bc2195e!8m2!3d-29.5774779!4d-51.086554!16s%2Fg%2F11fx7vxm4z?entry=ttu&g_ep=EgoyMDI2MDkxMy4wIKXMDSoASAFQAw%3D%3D",
-  },
-  {
-    name: "Natália Schommer",
-    city: "Dois Irmãos/RS",
-    dateTime: "2025-05-20",
-    text: "A Nádia é uma pessoa muito comprometida com o seu trabalho. Ela está sempre se renovando e se atualizando. Sempre disposta a atender e tirar dúvidas.",
-    profile:
-      "https://www.google.com/maps/place/N%C3%A1dia+Richter+-+Nutricionista/@-29.5774477,-51.0867773,980m/data=!3m1!1e3!4m15!1m8!3m7!1s0x9519466fff9960b1:0x102896425bc2195e!2sN%C3%A1dia+Richter+-+Nutricionista!8m2!3d-29.5774779!4d-51.086554!10e5!16s%2Fg%2F11fx7vxm4z!3m5!1s0x9519466fff9960b1:0x102896425bc2195e!8m2!3d-29.5774779!4d-51.086554!16s%2Fg%2F11fx7vxm4z?entry=ttu&g_ep=EgoyMDI2MDkxMy4wIKXMDSoASAFQAw%3D%3D",
-  },
-  {
-    name: "Deise Strey",
-    city: "Dois Irmãos/RS",
-    dateTime: "2025-03-10",
-    text: "Profissional muito atenciosa. Consegue adaptar a boa alimentação à rotina da gente. Incentiva as pequenas mudanças, em busca de resultados que queremos atingir. Explica muito bem sobre alimentação, dá dicas de receitas e produtos que podem facilitar a dieta no dia a dia. O que mais gosto na Nádia é a clareza e a atenção que ela dispensa nas consultas. Vibra com nossos resultados e adapta o que não está funcionando. Com certeza, é uma profissional que eu indico!",
-    profile:
-      "https://www.google.com/maps/place/N%C3%A1dia+Richter+-+Nutricionista/@-29.5774477,-51.0867773,980m/data=!3m1!1e3!4m15!1m8!3m7!1s0x9519466fff9960b1:0x102896425bc2195e!2sN%C3%A1dia+Richter+-+Nutricionista!8m2!3d-29.5774779!4d-51.086554!10e5!16s%2Fg%2F11fx7vxm4z!3m5!1s0x9519466fff9960b1:0x102896425bc2195e!8m2!3d-29.5774779!4d-51.086554!16s%2Fg%2F11fx7vxm4z?entry=ttu&g_ep=EgoyMDI2MDkxMy4wIKXMDSoASAFQAw%3D%3D",
+    name: "Juliana Froehlich",
+    city: "Ivoti/RS",
+    dateTime: "2025-09-08",
+    text: "Muito atenciosa e competente! Consultório lindo e aconchegante na Derma Lumen. Já nas primeiras semanas senti muita diferença na digestão, no sono e na balança. Sou muito grata pelo acompanhamento!",
+    profile: site.googleProfile,
   },
 ];
 
 export const locations = [
   {
-    city: "Dois Irmãos",
-    address: "Av. 25 de Julho, 1201 · Térreo",
-    district: "Débora Blume Clinic · Bairro União / Centro · Dois Irmãos/RS · CEP 93950-000",
+    city: "Ivoti",
+    address: "Av. Presidente Lucena, 2159 · Sala 223",
+    district:
+      "Clínica Derma Lumen · Bairro Harmonia · Ivoti/RS · CEP 93900-000",
     type: "Presencial · Online · Particular",
   },
 ] as const;
 
 export const faqs = [
   [
-    "Qual é a melhor dieta para quem quer emagrecer?",
-    "Aquela que combina com o seu estilo e ritmo de vida. Para que dê certo e gere resultados consistentes, o plano alimentar precisa ter a ver com a sua rotina, respeitar o seu paladar e suas preferências, sem radicalismos ou restrições insustentáveis.",
+    "Qual é a abordagem da consulta para emagrecimento feminino?",
+    "Uma abordagem personalizada e acolhedora. Investigamos suas necessidades metabólicas, rotina diária, histórico com dietas e fatores hormonais. O plano alimentar é construído para promover emagrecimento sustentável com saciedade e sem privações severas.",
   ],
   [
-    "Existe um método para uma perda de peso duradoura?",
-    "Sim! Aquele com foco em reeducação alimentar genuína: porções na medida certa (nem de mais, nem de menos), comida de verdade e acompanhamento individualizado que ensina você a ter autonomia alimentar para a vida inteira.",
+    "Como a nutrição pode me ajudar a ter mais vitalidade e energia?",
+    "A fadiga, o desânimo e a oscilação de humor muitas vezes estão associados a carências de micronutrientes, má distribuição energética e picos glicêmicos. Com ajustes estratégicos na alimentação, conseguimos regular seus níveis de energia e vitalidade ao longo de todo o dia.",
   ],
   [
-    "Dá para emagrecer ou definir sem cortar o carboidrato?",
-    "Com certeza! Os carboidratos são fontes primordiais de energia e disposição física. O segredo está em ajustar a quantidade ideal para o seu gasto energético, priorizar opções ricas em fibras e nutrientes e distribuir de maneira estratégica ao longo do seu dia.",
-  ],
-  [
-    "Como funciona o tratamento para saúde e modulação intestinal?",
-    "É um protocolo personalizado para pacientes com diagnóstico de Síndrome do Intestino Irritável (SII), constipação, estufamento, gases ou distensão abdominal. Investigamos os gatilhos alimentares, recuperamos a barreira intestinal e restauramos o equilíbrio da microbiota.",
+    "Preciso cortar carboidratos ou parar de comer o que gosto para emagrecer?",
+    "Não! Restrições radicais são as principais responsáveis pelo efeito sanfona e pela perda de adesão. Trabalhamos com equilíbrio, escolhendo as melhores fontes, ajustando as quantidades certas para o seu corpo e mantendo os momentos de prazer à mesa.",
   ],
   [
     "Onde acontecem as consultas presenciais?",
-    "Os atendimentos presenciais acontecem na Débora Blume Clinic, situada na Av. 25 de Julho, 1201, Térreo, Bairro União / Centro, Dois Irmãos/RS, CEP 93950-000.",
+    "Os atendimentos presenciais acontecem na clínica Derma Lumen, situada na Av. Presidente Lucena, 2159, sala 223, Bairro Harmonia, Ivoti - RS, CEP 93900-000.",
   ],
   [
-    "Vocês atendem online?",
-    "Sim! Além do atendimento presencial em Dois Irmãos, realizo acompanhamento nutricional online para pacientes de todo o Brasil e exterior, com a mesma qualidade clínica e suporte contínuo.",
+    "Você também realiza atendimentos online?",
+    "Sim! Além das consultas presenciais em Ivoti, realizo atendimento nutricional online para pacientes de todo o Brasil e exterior, com a mesma profundidade, plano individualizado e suporte contínuo via WhatsApp.",
   ],
   [
-    "Como faço para agendar uma consulta?",
-    `Basta clicar em qualquer botão de agendamento do site para conversar diretamente comigo pelo WhatsApp ${site.phoneDisplay}. O atendimento é particular e com horários flexíveis para acomodar sua rotina.`,
+    "Como faço para agendar a minha consulta?",
+    `Basta clicar nos botões de agendamento desta página para entrar em contato diretamente pelo WhatsApp ${site.phoneDisplay}. Conversamos sobre suas necessidades e encontramos o melhor dia e horário para o seu atendimento.`,
   ],
   [
-    "Atende convênio?",
-    "Não. Os atendimentos são exclusivamente particulares para garantir consultas aprofundadas, sem pressa e com planejamento verdadeiramente personalizado para as suas necessidades.",
+    "Você atende por convênio médico?",
+    "Os atendimentos são exclusivamente particulares, o que nos permite consultas com tempo de escuta estendido, plano verdadeiramente personalizado e suporte humanizado. Fornecemos recibo para que você possa solicitar reembolso junto ao seu plano de saúde, caso tenha esse benefício.",
   ],
   [
     "Como funciona a primeira consulta?",
-    "Fazemos uma anamnese completa sobre seus hábitos, exames laboratoriais, histórico de saúde, rotina e metas. A partir dessa análise aprofundada, estruturamos seu plano alimentar individualizado e os primeiros passos do tratamento.",
+    "Realizamos uma anamnese aprofundada sobre sua saúde, hábitos, rotina, sintomas, exames laboratoriais e objetivos. A partir disso, definimos metas realistas e elaboramos um plano alimentar feito exclusivamente para você.",
   ],
 ] as const;
 
-export const whatsappUrl = `https://wa.me/${site.phoneLink}?text=${encodeURIComponent("Olá, Nádia! Gostaria de agendar uma consulta.")}`;
+export const whatsappUrl = `https://wa.me/${site.phoneLink}?text=${encodeURIComponent("Olá, Luisa! Gostaria de agendar uma consulta.")}`;
