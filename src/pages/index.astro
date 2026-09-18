@@ -122,11 +122,14 @@ const jsonLd = {
     <div class="container header-inner">
       <a class="brand" href="#inicio" aria-label={`${site.name}, início`}
         ><img
+          class="brand-mark"
           src={asset(site.assets.logo)}
           alt={`${site.role} ${site.name}`}
-          width="430"
-          height="185"
-        /></a
+          width="44"
+          height="44"
+        /><span class="brand-text" aria-hidden="true"
+          ><strong>{site.name}</strong><small>NUTRICIONISTA</small></span
+        ></a
       >
       <nav class="desktop-nav" aria-label="Navegação principal">
         <a href="#sobre">Sobre</a><a href="#atendimentos">Atendimentos</a><a
@@ -607,12 +610,19 @@ const jsonLd = {
   <footer class="site-footer">
     <div class="container footer-main">
       <div class="footer-brand logo">
-        <img
-          src={asset(site.assets.logo)}
-          alt={site.role + " " + site.name}
-          width="205"
-          height="65"
-        />
+        <span class="brand brand-footer" aria-label={site.role + " " + site.name}>
+          <img
+            class="brand-mark"
+            src={asset(site.assets.logo)}
+            alt=""
+            aria-hidden="true"
+            width="40"
+            height="40"
+          />
+          <span class="brand-text" aria-hidden="true"
+            ><strong>{site.name}</strong><small>NUTRICIONISTA</small></span
+          >
+        </span>
         <p>
           Atendimento nutricional particular<br />
           em {site.city}, {site.state}.

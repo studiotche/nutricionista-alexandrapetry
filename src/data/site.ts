@@ -20,15 +20,15 @@ export const site = {
     },
   ],
   googleProfile:
-    "https://www.google.com/maps/place/Nutricionista+Luisa+Scheffler/@-29.6049179,-51.1629429,17z/data=!4m6!3m5!1s0x951945045b13d355:0xddad8d7797614193!8m2!3d-29.6049179!4d-51.1629429!16s%2Fg%2F11vyffy8db",
+    "https://www.google.com/maps/place/Nutricionista+Luisa+Scheffler/@-29.6049469,-51.1627331,980m/data=!3m1!1e3!4m17!1m10!3m9!1s0x951945045b13d355:0xddad8d7797614193!2sNutricionista+Luisa+Scheffler!8m2!3d-29.6049179!4d-51.1629429!10e5!14m1!1BCgIgARICCAI!16s%2Fg%2F11vyffy8db!3m5!1s0x951945045b13d355:0xddad8d7797614193!8m2!3d-29.6049179!4d-51.1629429!16s%2Fg%2F11vyffy8db?entry=ttu&g_ep=EgoyMDI2MDkxNS4wIKXMDSoASAFQAw%3D%3D",
   googleRating: {
     score: "5,0",
-    reviews: 5,
+    reviews: 22,
   },
   mapsEmbedUrl:
     "https://maps.google.com/maps?q=-29.6049179,-51.1629429&z=17&hl=pt-BR&output=embed",
   mapsUrl:
-    "https://www.google.com/maps/place/Nutricionista+Luisa+Scheffler/@-29.6049179,-51.1629429,17z/data=!4m6!3m5!1s0x951945045b13d355:0xddad8d7797614193!8m2!3d-29.6049179!4d-51.1629429!16s%2Fg%2F11vyffy8db",
+    "https://www.google.com/maps/place/Nutricionista+Luisa+Scheffler/@-29.6049469,-51.1627331,980m/data=!3m1!1e3!4m17!1m10!3m9!1s0x951945045b13d355:0xddad8d7797614193!2sNutricionista+Luisa+Scheffler!8m2!3d-29.6049179!4d-51.1629429!10e5!14m1!1BCgIgARICCAI!16s%2Fg%2F11vyffy8db!3m5!1s0x951945045b13d355:0xddad8d7797614193!8m2!3d-29.6049179!4d-51.1629429!16s%2Fg%2F11vyffy8db?entry=ttu&g_ep=EgoyMDI2MDkxNS4wIKXMDSoASAFQAw%3D%3D",
   seo: {
     title:
       "Nutricionista para emagrecimento e vitalidade para mulheres em Ivoti, Luisa Scheffler",
@@ -43,9 +43,9 @@ export const site = {
       "Nutricionista para emagrecimento e vitalidade para mulheres em Ivoti, Luisa Scheffler",
     titleHighlight: "Luisa Scheffler",
     tagline:
-      "Comer com equilíbrio, emagrecer sem dietas restritivas e reconquistar a sua energia diária.",
+      "Coma com equilíbrio, emagreça sem dietas restritivas e recupere sua energia.",
     description:
-      "Acompanhamento nutricional individualizado e humanizado em Ivoti. Estratégias sustentáveis para emagrecimento duradouro, equilíbrio hormonal, disposição e bem-estar, sem dietas extremas ou efeito sanfona.",
+      "Acompanhamento nutricional individualizado em Ivoti, com estratégias sustentáveis para emagrecimento, equilíbrio hormonal, disposição e bem-estar.",
   },
   about: {
     eyebrow: "Olá, eu sou a Luisa Scheffler!",
@@ -59,13 +59,13 @@ export const site = {
     ],
   },
   assets: {
-    logo: "/assets/images/logo-nutricionista-luisa-scheffler.svg",
+    logo: "/assets/images/favicon-nutricionista-luisa-scheffler.svg",
     hero: "/assets/images/nutricionista-luisa-scheffler-hero.jpg",
     heroMobile: "/assets/images/nutricionista-luisa-scheffler-hero-m.jpg",
-    about: "/assets/images/sobre-nutricionista-luisa-scheffler.jpg",
+    about: "/assets/images/sobre-nutricionista-luisa-scheffler.webp",
     processBg: "/assets/images/nutricionista-fundo-sessao-agende.webp",
-    consultorio: "/assets/images/consultorio-luisa-scheffler.jpg",
-    consultorioFachada: "/assets/images/recepcao-clinica-ivoti.jpg",
+    consultorio: "/assets/images/consultorio-luisa-scheffler.webp",
+    consultorioFachada: "/assets/images/recepcao-clinica-ivoti.webp",
   },
 } as const;
 
@@ -122,31 +122,42 @@ export const testimonials: {
   profile?: string;
 }[] = [
   {
-    name: "Carolina Steffen",
+    name: "Rubia Ariane Klein",
     city: "Ivoti/RS",
-    dateTime: "2026-02-12",
-    text: "A Luisa é uma nutricionista excepcional! O plano alimentar que ela preparou é super realista e saboroso. Pela primeira vez consegui emagrecer sem passar fome e sem me sentir culpada. A atenção e carinho que ela dedica na consulta fazem toda a diferença.",
+    dateTime: "2025-05-15",
+    text: "Minha experiência com a Luisa tem sido excelente. Além de ser muito profissional, ela é acolhedora, atenciosa, dedicada e sempre disposta a ouvir. Explica tudo com clareza, entende minhas necessidades e adapta o plano alimentar de forma prática e realista para o meu dia a dia. Recomendo de olhos fechados!",
     profile: site.googleProfile,
   },
   {
-    name: "Mariana Schmidt",
+    name: "Rosvita Backes Exner",
     city: "Ivoti/RS",
-    dateTime: "2026-01-20",
-    text: "Procurei a Luisa porque me sentia sempre cansada e sem energia para a rotina. Com os ajustes na minha alimentação, minha disposição mudou completamente e desinchei muito. Recomendo de olhos fechados!",
+    dateTime: "2026-02-15",
+    text: "Esta profissional é incrível! Muito sensível e atenciosa com as necessidades de cada pessoa. Recomendo fortemente! É ela quem cuida da minha dieta e controla a minha diabete 🥰",
     profile: site.googleProfile,
   },
   {
-    name: "Fernanda Becker",
+    name: "Helena De Lima",
     city: "Ivoti/RS",
-    dateTime: "2025-11-15",
-    text: "Excelente atendimento! A Luisa não impõe dietas malucas, ela ensina você a comer bem dentro da sua própria realidade. Meu relacionamento com a comida melhorou 100%. Uma profissional humanizada e dedicada.",
+    dateTime: "2025-05-18",
+    text: "Procurei a nutricionista Luisa por problemas de saúde como diabetes e hipertensão. Ela me passou várias orientações e sempre que preciso a chamo e prontamente sou atendida com muita atenção. A Luisa é super acolhedora e muito dedicada ao dia a dia da paciente. Sou muito grata!",
     profile: site.googleProfile,
   },
   {
-    name: "Juliana Froehlich",
-    city: "Ivoti/RS",
-    dateTime: "2025-09-08",
-    text: "Muito atenciosa e competente! Consultório lindo e aconchegante na Derma Lumen. Já nas primeiras semanas senti muita diferença na digestão, no sono e na balança. Sou muito grata pelo acompanhamento!",
+    name: "Jader Martin Staudt",
+    city: "",
+    text: "Luisa é muito atenciosa e procura sempre nos motivar para atingir os resultados propostos, além de montar planos personalizados, levando em consideração a realidade de cada um.",
+    profile: site.googleProfile,
+  },
+  {
+    name: "Vanderléia Finger",
+    city: "",
+    text: "Ótima profissional, muito atenciosa e sempre disposta a sanar dúvidas, recomendo a todos que estão dispostos a alcançar seus objetivos.",
+    profile: site.googleProfile,
+  },
+  {
+    name: "Mônica Denise Da Silva",
+    city: "",
+    text: "Cardápio fácil de seguir e adaptado as minhas necessidades.",
     profile: site.googleProfile,
   },
 ];
