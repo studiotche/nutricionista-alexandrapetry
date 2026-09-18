@@ -8,9 +8,9 @@ export const site = {
   crn: "CRN-2 19231D",
   credentials:
     "Nutricionista Clínica · Emagrecimento Feminino e Vitalidade · CRN-2 19231D",
-  phoneDisplay: "(51) 99386-3765",
-  phoneLink: "5551993863765",
-  telLink: "tel:+5551993863765",
+  phoneDisplay: "(51) 99552-0151",
+  phoneLink: "5551995520151",
+  telLink: "tel:+5551995520151",
   email: "",
   instagram: "https://www.instagram.com/nutri.luisascheffler/",
   hours: [
@@ -121,46 +121,46 @@ export const testimonials: {
   text: string;
   profile?: string;
 }[] = [
-  {
-    name: "Rubia Ariane Klein",
-    city: "Ivoti/RS",
-    dateTime: "2025-05-15",
-    text: "Minha experiência com a Luisa tem sido excelente. Além de ser muito profissional, ela é acolhedora, atenciosa, dedicada e sempre disposta a ouvir. Explica tudo com clareza, entende minhas necessidades e adapta o plano alimentar de forma prática e realista para o meu dia a dia. Recomendo de olhos fechados!",
-    profile: site.googleProfile,
-  },
-  {
-    name: "Rosvita Backes Exner",
-    city: "Ivoti/RS",
-    dateTime: "2026-02-15",
-    text: "Esta profissional é incrível! Muito sensível e atenciosa com as necessidades de cada pessoa. Recomendo fortemente! É ela quem cuida da minha dieta e controla a minha diabete 🥰",
-    profile: site.googleProfile,
-  },
-  {
-    name: "Helena De Lima",
-    city: "Ivoti/RS",
-    dateTime: "2025-05-18",
-    text: "Procurei a nutricionista Luisa por problemas de saúde como diabetes e hipertensão. Ela me passou várias orientações e sempre que preciso a chamo e prontamente sou atendida com muita atenção. A Luisa é super acolhedora e muito dedicada ao dia a dia da paciente. Sou muito grata!",
-    profile: site.googleProfile,
-  },
-  {
-    name: "Jader Martin Staudt",
-    city: "",
-    text: "Luisa é muito atenciosa e procura sempre nos motivar para atingir os resultados propostos, além de montar planos personalizados, levando em consideração a realidade de cada um.",
-    profile: site.googleProfile,
-  },
-  {
-    name: "Vanderléia Finger",
-    city: "",
-    text: "Ótima profissional, muito atenciosa e sempre disposta a sanar dúvidas, recomendo a todos que estão dispostos a alcançar seus objetivos.",
-    profile: site.googleProfile,
-  },
-  {
-    name: "Mônica Denise Da Silva",
-    city: "",
-    text: "Cardápio fácil de seguir e adaptado as minhas necessidades.",
-    profile: site.googleProfile,
-  },
-];
+    {
+      name: "Rubia Ariane Klein",
+      city: "Ivoti/RS",
+      dateTime: "2025-05-15",
+      text: "Minha experiência com a Luisa tem sido excelente. Além de ser muito profissional, ela é acolhedora, atenciosa, dedicada e sempre disposta a ouvir. Explica tudo com clareza, entende minhas necessidades e adapta o plano alimentar de forma prática e realista para o meu dia a dia. Recomendo de olhos fechados!",
+      profile: site.googleProfile,
+    },
+    {
+      name: "Rosvita Backes Exner",
+      city: "Ivoti/RS",
+      dateTime: "2026-02-15",
+      text: "Esta profissional é incrível! Muito sensível e atenciosa com as necessidades de cada pessoa. Recomendo fortemente! É ela quem cuida da minha dieta e controla a minha diabete 🥰",
+      profile: site.googleProfile,
+    },
+    {
+      name: "Helena De Lima",
+      city: "Ivoti/RS",
+      dateTime: "2025-05-18",
+      text: "Procurei a nutricionista Luisa por problemas de saúde como diabetes e hipertensão. Ela me passou várias orientações e sempre que preciso a chamo e prontamente sou atendida com muita atenção. A Luisa é super acolhedora e muito dedicada ao dia a dia da paciente. Sou muito grata!",
+      profile: site.googleProfile,
+    },
+    {
+      name: "Jader Martin Staudt",
+      city: "",
+      text: "Luisa é muito atenciosa e procura sempre nos motivar para atingir os resultados propostos, além de montar planos personalizados, levando em consideração a realidade de cada um.",
+      profile: site.googleProfile,
+    },
+    {
+      name: "Vanderléia Finger",
+      city: "",
+      text: "Ótima profissional, muito atenciosa e sempre disposta a sanar dúvidas, recomendo a todos que estão dispostos a alcançar seus objetivos.",
+      profile: site.googleProfile,
+    },
+    {
+      name: "Mônica Denise Da Silva",
+      city: "",
+      text: "Cardápio fácil de seguir e adaptado as minhas necessidades.",
+      profile: site.googleProfile,
+    },
+  ];
 
 export const locations = [
   {
