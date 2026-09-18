@@ -35,7 +35,7 @@ export const site = {
     description:
       "Luisa Scheffler, nutricionista clínica em Ivoti/RS (CRN-2 19231D). Acompanhamento individualizado em emagrecimento sustentável e vitalidade feminina na clínica Derma Lumen. Presencial e online.",
     url: "https://studiotche.github.io/nutricionista-luisascheffler/",
-    ogImage: "/assets/images/nutricionista-luisa-scheffler-hero.jpg",
+    ogImage: "/assets/images/nutricionista-luisa-scheffler-hero.webp",
   },
   hero: {
     eyebrow: "Nutrição Clínica Feminina & Vitalidade",
@@ -60,8 +60,8 @@ export const site = {
   },
   assets: {
     logo: "/assets/images/favicon-nutricionista-luisa-scheffler.svg",
-    hero: "/assets/images/nutricionista-luisa-scheffler-hero.jpg",
-    heroMobile: "/assets/images/nutricionista-luisa-scheffler-hero-m.jpg",
+    hero: "/assets/images/nutricionista-luisa-scheffler-hero.webp",
+    heroMobile: "/assets/images/nutricionista-luisa-scheffler-hero-m.webp",
     about: "/assets/images/sobre-nutricionista-luisa-scheffler.webp",
     processBg: "/assets/images/nutricionista-fundo-sessao-agende.webp",
     consultorio: "/assets/images/consultorio-luisa-scheffler.webp",

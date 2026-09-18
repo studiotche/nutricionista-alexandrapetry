@@ -2,11 +2,11 @@
   <defs>
     <linearGradient id="favGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#13261D" />
-      <stop offset="100%" stop-color="#81502a" />
+      <stop offset="100%" stop-color="#245B3A" />
     </linearGradient>
     <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#f8f3e9" />
-      <stop offset="100%" stop-color="#e8c39f" />
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#FEECB1" />
     </linearGradient>
   </defs>
   <rect width="64" height="64" rx="14" fill="url(#favGrad)" />

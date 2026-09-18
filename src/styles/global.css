@@ -29,12 +29,12 @@
   --muted: #58544d;
   --cream: #FEECB1;
   --paper: #f8f3e9;
-  --sage: #9b3d49;
+  --sage: #245B3A;
   --sage-dark: #13261D;
-  --sage-tint: #f3cfd2;
-  --terracotta: #81502a;
-  --terracotta-deep: #81502a;
-  --terracotta-light: #e8c39f;
+  --sage-tint: #DCEEE2;
+  --terracotta: #1B432E;
+  --terracotta-deep: #13261D;
+  --terracotta-light: #FEECB1;
   --gold: #d8c08a;
   --line: rgba(23, 21, 16, 0.15);
   --white: #ffffff;
@@ -389,6 +389,7 @@ summary:focus-visible {
 }
 
 @media (min-width: 761px) {
+
   .hero-copy.hero-reveal-ready>.eyebrow,
   .hero-copy.hero-reveal-ready>.location-note,
   .hero-copy.hero-reveal-ready .hero-actions>* {
@@ -1133,7 +1134,7 @@ summary:focus-visible {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: top;
   transform-origin: center;
   transition: transform .5s cubic-bezier(.22, .61, .36, 1);
   will-change: transform;
@@ -1975,13 +1976,13 @@ body.menu-open {
     font-size: clamp(1.7rem, 8vw, 2.4rem);
   }
 
-  .hero-copy > .eyebrow,
-  .hero-copy > .location-note,
-  .hero-copy .hero-actions > *,
+  .hero-copy>.eyebrow,
+  .hero-copy>.location-note,
+  .hero-copy .hero-actions>*,
   .hero-copy .hero-reveal-word,
-  .hero-copy.hero-reveal-ready > .eyebrow,
-  .hero-copy.hero-reveal-ready > .location-note,
-  .hero-copy.hero-reveal-ready .hero-actions > *,
+  .hero-copy.hero-reveal-ready>.eyebrow,
+  .hero-copy.hero-reveal-ready>.location-note,
+  .hero-copy.hero-reveal-ready .hero-actions>*,
   .hero-copy.hero-reveal-ready .hero-reveal-word,
   .hero h1,
   .hero-tagline,
