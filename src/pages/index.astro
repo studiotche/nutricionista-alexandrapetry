@@ -497,6 +497,8 @@ const jsonLd = {
             <img
               src={asset(site.assets.consultorio)}
               alt={`Consultório da nutricionista ${site.name} em ${site.city}`}
+              width="1600"
+              height="1000"
               loading="lazy"
               decoding="async"
             />
@@ -505,6 +507,8 @@ const jsonLd = {
             <img
               src={asset(site.assets.consultorioFachada)}
               alt={`Fachada do consultório da nutricionista ${site.name}`}
+              width="1600"
+              height="1000"
               loading="lazy"
               decoding="async"
             />
@@ -610,7 +614,7 @@ const jsonLd = {
   <footer class="site-footer">
     <div class="container footer-main">
       <div class="footer-brand logo">
-        <span class="brand brand-footer" aria-label={site.role + " " + site.name}>
+        <span class="brand brand-footer">
           <img
             class="brand-mark"
             src={asset(site.assets.logo)}
@@ -619,7 +623,7 @@ const jsonLd = {
             width="40"
             height="40"
           />
-          <span class="brand-text" aria-hidden="true"
+          <span class="brand-text"
             ><strong>{site.name}</strong><small>NUTRICIONISTA</small></span
           >
         </span>
