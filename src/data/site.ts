@@ -89,18 +89,10 @@ export const specialties = [
   {
     number: "03",
     icon: "/assets/images/maca.svg",
-    title: "Saúde Intestinal",
+    title: "Saúde e Controle de Doenças",
     text: "Você vive com a barriga estufada, intestino preso, desconfortos e sem energia?",
     detail:
-      "Vamos cuidar da sua saúde intestinal e resolver tudo isso de forma eficaz.",
-  },
-  {
-    number: "04",
-    icon: "/assets/images/emagrecimento.svg",
-    title: "Saúde e Controle de Doenças",
-    text: "Busca por mudanças de hábitos e uma alimentação que te proporcionem mais saúde e disposição?",
-    detail:
-      "Te mostro como a escolha dos alimentos impactam nessas questões e como reverter exames.",
+      "Vamos cuidar da sua saúde intestinal e reverter exames de forma eficaz.",
   }
 ] as const;
 
