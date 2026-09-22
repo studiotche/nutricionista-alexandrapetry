@@ -59,9 +59,9 @@ export const site = {
     ],
   },
   assets: {
-    logo: "/assets/images/logo-alexandra.svg",
-    hero: "/assets/images/nutricionista-alexandrapetry-hero.webp",
-    heroMobile: "/assets/images/nutricionista-alexandrapetry-hero-m.webp",
+    logo: "/assets/images/logo-nutricionista-alexandra-petry.webp",
+    hero: "/assets/images/nutricionista-alexandra-petry-hero.webp",
+    heroMobile: "/assets/images/nutricionista-alexandra-petry-hero.webp",
     about: "/assets/images/sobre-nutricionista-alexandrapetry.webp",
     processBg: "/assets/images/nutricionista-fundo-sessao-agende.webp",
     consultorio: "/assets/images/consultorio-alexandrapetry.webp",
