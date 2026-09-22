@@ -35,7 +35,7 @@ export const site = {
     description:
       "Alexandra Petry, nutricionista clínica e esportiva em Novo Hamburgo/RS. Atendimento para quem busca resultados consistentes em saúde, emagrecimento ou performance.",
     url: "https://nutrialexandrapetry.my.canva.site/",
-    ogImage: "/assets/images/nutricionista-luisa-scheffler-hero.webp",
+    ogImage: "/assets/images/nutricionista-alexandrapetry-hero.webp",
   },
   hero: {
     eyebrow: "Nutrição Clínica e Esportiva",

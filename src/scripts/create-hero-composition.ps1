@@ -1,7 +1,7 @@
 Add-Type -AssemblyName System.Drawing
 
 $baseDir = Resolve-Path "public/assets/images"
-$srcImgPath = Join-Path $baseDir "nutricionista-luisa-scheffler.jpg"
+$srcImgPath = Join-Path $baseDir "nutricionista-alexandrapetry.jpg"
 $src = [System.Drawing.Image]::FromFile($srcImgPath)
 
 # 1. About image: high-quality portrait crop (e.g. 1000 x 1350)
@@ -25,7 +25,7 @@ $destRect = New-Object System.Drawing.Rectangle(0, 0, $aboutWidth, $aboutHeight)
 $gAbout.DrawImage($src, $destRect, $srcRect, [System.Drawing.GraphicsUnit]::Pixel)
 $gAbout.Dispose()
 
-$aboutOut = Join-Path $baseDir "sobre-nutricionista-luisa-scheffler.jpg"
+$aboutOut = Join-Path $baseDir "sobre-nutricionista-alexandrapetry.jpg"
 $aboutBmp.Save($aboutOut, [System.Drawing.Imaging.ImageFormat]::Jpeg)
 $aboutBmp.Dispose()
 Write-Host "Created $aboutOut"
@@ -46,8 +46,8 @@ $brush = New-Object System.Drawing.SolidBrush($bgColor)
 $gHero.FillRectangle($brush, 0, 0, $heroW, $heroH)
 $brush.Dispose()
 
-# Place Luisa on the right side
-# Scale Luisa so height covers heroH
+# Place Alexandra on the right side
+# Scale Alexandra so height covers heroH
 $scale = $heroH / ($src.Height * 0.85)
 $targetW = [int]($src.Width * $scale)
 $targetH = $heroH
@@ -58,7 +58,7 @@ $destHeroRect = New-Object System.Drawing.Rectangle($targetX, $targetY, $targetW
 $srcHeroRect = New-Object System.Drawing.Rectangle(0, 0, $src.Width, [int]($src.Height * 0.85))
 $gHero.DrawImage($src, $destHeroRect, $srcHeroRect, [System.Drawing.GraphicsUnit]::Pixel)
 
-# Smooth gradient blend on the left edge of Luisa's photo to seamlessly merge with background
+# Smooth gradient blend on the left edge of Alexandra's photo to seamlessly merge with background
 $blendW = 280
 $blendStart = $targetX
 for ($i = 0; $i -lt $blendW; $i++) {
@@ -70,7 +70,7 @@ for ($i = 0; $i -lt $blendW; $i++) {
 }
 
 $gHero.Dispose()
-$heroOut = Join-Path $baseDir "nutricionista-luisa-scheffler-hero.jpg"
+$heroOut = Join-Path $baseDir "nutricionista-alexandrapetry-hero.jpg"
 $heroBmp.Save($heroOut, [System.Drawing.Imaging.ImageFormat]::Jpeg)
 $heroBmp.Dispose()
 Write-Host "Created $heroOut"
@@ -96,7 +96,7 @@ $srcMRect = New-Object System.Drawing.Rectangle(0, 0, $src.Width, [int]($src.Hei
 $gM.DrawImage($src, $destMRect, $srcMRect, [System.Drawing.GraphicsUnit]::Pixel)
 $gM.Dispose()
 
-$mOut = Join-Path $baseDir "nutricionista-luisa-scheffler-hero-m.jpg"
+$mOut = Join-Path $baseDir "nutricionista-alexandrapetry-hero-m.jpg"
 $mBmp.Save($mOut, [System.Drawing.Imaging.ImageFormat]::Jpeg)
 $mBmp.Dispose()
 Write-Host "Created $mOut"
