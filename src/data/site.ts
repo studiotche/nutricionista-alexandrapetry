@@ -62,10 +62,10 @@ export const site = {
     logo: "/assets/images/favicon-nutricionista-luisa-scheffler.svg",
     hero: "/assets/images/nutricionista-luisa-scheffler-hero.webp",
     heroMobile: "/assets/images/nutricionista-luisa-scheffler-hero-m.webp",
-    about: "/assets/images/sobre-nutricionista-luisa-scheffler.webp",
+    about: "/assets/images/sobre-nutricionista-alexandrapetry.webp",
     processBg: "/assets/images/nutricionista-fundo-sessao-agende.webp",
-    consultorio: "/assets/images/consultorio-luisa-scheffler.webp",
-    consultorioFachada: "/assets/images/recepcao-clinica-ivoti.webp",
+    consultorio: "/assets/images/consultorio-alexandrapetry.webp",
+    consultorioFachada: "/assets/images/recepcao-alexandrapetry.webp",
   },
 } as const;
 
