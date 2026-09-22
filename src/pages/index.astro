@@ -756,7 +756,7 @@ const jsonLd = {
     const splitHeroWords = (element: HTMLElement | null) => {
       if (!element) return [];
       const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT | NodeFilter.SHOW_ELEMENT);
-      const parts = [];
+      const parts: any[] = [];
       while (walker.nextNode()) {
         const node = walker.currentNode;
         if (node.nodeType === Node.ELEMENT_NODE && (node as HTMLElement).tagName === "BR") {
