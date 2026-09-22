@@ -495,8 +495,8 @@ const jsonLd = {
         <div class="consultorio-gallery" aria-label={`Imagens do consultório em ${site.city}`}>
           <figure>
             <img
-              src={asset(site.assets.consultorio)}
-              alt={`Consultório da nutricionista ${site.name} em ${site.city}`}
+              src={asset(site.assets.consultorioFachada)}
+              alt={`Fachada do consultório da nutricionista ${site.name}`}
               width="1600"
               height="1000"
               loading="lazy"
@@ -505,8 +505,8 @@ const jsonLd = {
           </figure>
           <figure>
             <img
-              src={asset(site.assets.consultorioFachada)}
-              alt={`Fachada do consultório da nutricionista ${site.name}`}
+              src={asset(site.assets.consultorio)}
+              alt={`Consultório da nutricionista ${site.name} em ${site.city}`}
               width="1600"
               height="1000"
               loading="lazy"

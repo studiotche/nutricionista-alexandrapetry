@@ -1121,7 +1121,7 @@ summary:focus-visible {
 .consultorio-gallery figure {
   position: relative;
   min-width: 0;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 3 / 2;
   margin: 0;
   overflow: hidden;
   border: 1px solid var(--line);
