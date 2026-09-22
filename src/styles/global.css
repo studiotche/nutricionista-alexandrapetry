@@ -263,8 +263,8 @@ a {
   justify-content: center;
   text-align: center;
   gap: 16px;
-  border: 1px solid var(--sage);
-  background: var(--sage);
+  border: 1px solid var(--sage-dark);
+  background: var(--sage-dark);
   color: var(--white);
   padding: 0 24px;
   border-radius: 4px;
@@ -317,7 +317,7 @@ summary:focus-visible {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: var(--sage);
+  color: var(--sage-dark);
   border-bottom: 1px solid rgba(61, 107, 82, .4);
   padding-block: 6px;
   font-weight: 600;
@@ -325,7 +325,7 @@ summary:focus-visible {
 }
 
 .text-link:hover {
-  color: var(--sage-dark);
+  color: var(--ink);
   border-color: currentColor;
   gap: 14px;
 }
@@ -423,7 +423,7 @@ summary:focus-visible {
 
 .eyebrow {
   margin: 0 0 18px;
-  color: var(--sage);
+  color: var(--sage-dark);
   font-family: var(--display);
   font-size: .74rem;
   font-weight: 600;
@@ -432,7 +432,7 @@ summary:focus-visible {
 }
 
 .eyebrow-light {
-  color: var(--gold);
+  color: var(--sage-dark);
 }
 
 .contact-card .eyebrow-light {
@@ -564,7 +564,7 @@ summary:focus-visible {
 }
 
 .floating-kicker {
-  color: var(--sage);
+  color: var(--sage-dark);
   font-size: .67rem;
   font-weight: 600;
   letter-spacing: .13em;
@@ -750,7 +750,7 @@ summary:focus-visible {
 }
 
 .about-values span {
-  color: rgba(255, 255, 255, .65);
+  color: rgba(255, 255, 255, .9);
   font-size: .82rem;
 }
 
@@ -1502,7 +1502,7 @@ summary:focus-visible {
 .footer-main p {
   max-width: 240px;
   margin: 0;
-  color: rgba(255, 255, 255, .65);
+  color: rgba(255, 255, 255, .9);
 }
 
 .footer-brand {
