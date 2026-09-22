@@ -27,14 +27,14 @@
 :root {
   --ink: #171510;
   --muted: #58544d;
-  --cream: #FEECB1;
-  --paper: #FEFDF5;
-  --sage: #245B3A;
-  --sage-dark: #13261D;
-  --sage-tint: #DCEEE2;
-  --terracotta: #1B432E;
-  --terracotta-deep: #13261D;
-  --terracotta-light: #FEECB1;
+  --cream: #e0cfba;
+  --paper: #ededed;
+  --sage: #7a8b7c;
+  --sage-dark: #515d53;
+  --sage-tint: #d0d8d1;
+  --terracotta: #563e32;
+  --terracotta-deep: #515d53;
+  --terracotta-light: #e0cfba;
   --gold: #d8c08a;
   --line: rgba(23, 21, 16, 0.15);
   --white: #ffffff;

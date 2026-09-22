@@ -43,7 +43,7 @@ export const site = {
       "Nutricionista Clínica e Esportiva em Novo Hamburgo",
     titleHighlight: "Alexandra Petry",
     tagline:
-      "Atendimento para quem busca resultados consistentes em saúde, emagrecimento ou performance",
+      "Atendimento para quem busca resultados consistentes <br/> em saúde, emagrecimento ou performance",
     description:
       "Atendimento para quem busca resultados consistentes em saúde, emagrecimento ou performance. Consultas presenciais em Novo Hamburgo e Online.",
   },
