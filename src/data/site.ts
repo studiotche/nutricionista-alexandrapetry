@@ -134,13 +134,13 @@ export const testimonials: {
       profile: site.googleProfile,
     },
     {
-      name: "cristian worc",
+      name: "Cristian Worc",
       city: "Novo Hamburgo/RS",
       text: "A Dra. Alexandra é uma profissional extremamente atenciosa e dedicada. Seu atendimento é excelente, sempre ouvindo com cuidado e criando planos personalizados que realmente atendem às necessidades do paciente. Graças ao trabalho dela, minha mãe conseguiu — e continua conseguindo — evoluir de forma magnífica. Recomendo fortemente o trabalho da Dra. Alexandra pela sua competência, empatia e comprometimento com os resultados.",
       profile: site.googleProfile,
     },
     {
-      name: "juliana oliveira",
+      name: "Juliana Oliveira",
       city: "Novo Hamburgo/RS",
       text: "Excelente profissional! Me ajudou a alcançar meus objetivos sem frescuras! O básico que funciona!",
       profile: site.googleProfile,
