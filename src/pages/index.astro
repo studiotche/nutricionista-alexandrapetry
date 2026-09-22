@@ -211,7 +211,7 @@ const jsonLd = {
             class="highlight">{site.hero.titleHighlight}</span
           >
         </h1>
-        <p class="hero-tagline">{site.hero.tagline}</p>
+        <p class="hero-tagline" set:html={site.hero.tagline}></p>
         <p class="lead">{site.hero.description}</p>
         <div class="hero-actions">
           <a class="button" href={whatsappUrl} target="_blank" rel="noreferrer"
@@ -755,27 +755,34 @@ const jsonLd = {
 
     const splitHeroWords = (element: HTMLElement | null) => {
       if (!element) return [];
-      const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT);
-      const textNodes: Text[] = [];
-      while (walker.nextNode()) textNodes.push(walker.currentNode as Text);
-
-      const words = textNodes.flatMap((node) => {
-        const isHighlight = node.parentElement?.closest(".highlight") !== null;
-        return (node.textContent || "")
-          .trim()
-          .split(/\s+/)
-          .filter(Boolean)
-          .map((text) => ({ text, isHighlight }));
-      });
+      const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT | NodeFilter.SHOW_ELEMENT);
+      const parts = [];
+      while (walker.nextNode()) {
+        const node = walker.currentNode;
+        if (node.nodeType === Node.ELEMENT_NODE && (node as HTMLElement).tagName === "BR") {
+          parts.push({ type: 'br' });
+        } else if (node.nodeType === Node.TEXT_NODE) {
+          const isHighlight = node.parentElement?.closest(".highlight") !== null;
+          (node.textContent || "").trim().split(/\s+/).filter(Boolean).forEach(text => {
+            parts.push({ type: 'word', text, isHighlight });
+          });
+        }
+      }
 
       element.replaceChildren();
-      return words.map(({ text, isHighlight }) => {
-        const word = document.createElement("span");
-        word.className = `hero-reveal-word${isHighlight ? " highlight" : ""}`;
-        word.textContent = text;
-        element.append(word, " ");
-        return word;
+      const wordElements: HTMLElement[] = [];
+      parts.forEach((part) => {
+        if (part.type === 'br') {
+          element.appendChild(document.createElement("br"));
+        } else {
+          const word = document.createElement("span");
+          word.className = `hero-reveal-word${part.isHighlight ? " highlight" : ""}`;
+          word.textContent = part.text;
+          element.append(word, " ");
+          wordElements.push(word);
+        }
       });
+      return wordElements;
     };
 
     const scheduleHeroWords = (words: HTMLElement[], startDelay: number) => {

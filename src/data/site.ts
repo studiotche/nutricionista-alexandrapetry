@@ -59,7 +59,7 @@ export const site = {
     ],
   },
   assets: {
-    logo: "/assets/images/favicon-nutricionista-luisa-scheffler.svg",
+    logo: "/assets/images/logo-alexandra.svg",
     hero: "/assets/images/nutricionista-luisa-scheffler-hero.webp",
     heroMobile: "/assets/images/nutricionista-luisa-scheffler-hero-m.webp",
     about: "/assets/images/sobre-nutricionista-alexandrapetry.webp",

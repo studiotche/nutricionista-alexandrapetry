@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80">
+  <defs>
+    <style>
+      .name { font-family: 'Newsreader', Georgia, serif; font-size: 28px; font-weight: 400; fill: #515d53; }
+      .desc { font-family: 'DM Sans', Arial, sans-serif; font-size: 11px; font-weight: 600; fill: #7a8b7c; letter-spacing: 3px; text-transform: uppercase; }
+      .icon-fill { fill: #e0cfba; }
+      .icon-stroke { fill: none; stroke: #515d53; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <g transform="translate(10, 15)">
+    <!-- Minimal botanical mark -->
+    <path class="icon-fill" d="M15,50 C-5,50 -5,15 15,0 C35,15 35,50 15,50 Z" />
+    <path class="icon-stroke" d="M15,50 C-5,50 -5,15 15,0 C35,15 35,50 15,50 Z" />
+    <path class="icon-stroke" d="M15,50 L15,15" />
+  </g>
+  <text x="65" y="38" class="name">Alexandra Petry</text>
+  <text x="65" y="62" class="desc">Nutricionista</text>
+</svg>
