@@ -1,18 +1,18 @@
 export const site = {
-  name: "Luisa Scheffler",
-  role: "Nutricionista Clínica",
-  fullRole: "Nutricionista Clínica · CRN-2 19231D",
-  city: "Ivoti",
+  name: "Alexandra Petry",
+  role: "Nutricionista Clínica e Esportiva",
+  fullRole: "Nutricionista Clínica e Esportiva",
+  city: "Novo Hamburgo",
   state: "RS",
-  region: "Ivoti/RS",
-  crn: "CRN-2 19231D",
+  region: "Novo Hamburgo/RS",
+  crn: "",
   credentials:
-    "Nutricionista Clínica · Emagrecimento Feminino e Vitalidade · CRN-2 19231D",
-  phoneDisplay: "(51) 99552-0151",
-  phoneLink: "5551995520151",
-  telLink: "tel:+5551995520151",
+    "Nutricionista especializada em Avaliação Metabólica e Nutricional",
+  phoneDisplay: "(51) 8408-8326",
+  phoneLink: "555184088326",
+  telLink: "tel:+555184088326",
   email: "",
-  instagram: "https://www.instagram.com/nutri.luisascheffler/",
+  instagram: "https://www.instagram.com/nutricionistaalexandrapetry/",
   hours: [
     {
       days: "Atendimento particular",
@@ -20,42 +20,42 @@ export const site = {
     },
   ],
   googleProfile:
-    "https://www.google.com/maps/place/Nutricionista+Luisa+Scheffler/@-29.6049469,-51.1627331,980m/data=!3m1!1e3!4m17!1m10!3m9!1s0x951945045b13d355:0xddad8d7797614193!2sNutricionista+Luisa+Scheffler!8m2!3d-29.6049179!4d-51.1629429!10e5!14m1!1BCgIgARICCAI!16s%2Fg%2F11vyffy8db!3m5!1s0x951945045b13d355:0xddad8d7797614193!8m2!3d-29.6049179!4d-51.1629429!16s%2Fg%2F11vyffy8db?entry=ttu&g_ep=EgoyMDI2MDkxNS4wIKXMDSoASAFQAw%3D%3D",
+    "https://www.google.com/maps/place/Alexandra+D.+Petry+I+Nutricionista+Cl%C3%ADnica+e+Esportiva+em+Novo+Hamburgo/@-29.6912225,-51.1272169,979m/data=!3m1!1e3!4m15!1m8!3m7!1s0x95194313e3d54ef7:0xaf9a49855b655981!2sAlexandra+D.+Petry+I+Nutricionista+Cl%C3%ADnica+e+Esportiva+em+Novo+Hamburgo!8m2!3d-29.6910819!4d-51.1272354!10e5!16s%2Fg%2F11qr9fkwj9!3m5!1s0x95194313e3d54ef7:0xaf9a49855b655981!8m2!3d-29.6910819!4d-51.1272354!16s%2Fg%2F11qr9fkwj9?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D",
   googleRating: {
     score: "5,0",
-    reviews: 22,
+    reviews: 15,
   },
   mapsEmbedUrl:
-    "https://maps.google.com/maps?q=-29.6049179,-51.1629429&z=17&hl=pt-BR&output=embed",
+    "https://maps.google.com/maps?q=-29.6910819,-51.1272354&z=17&hl=pt-BR&output=embed",
   mapsUrl:
-    "https://www.google.com/maps/place/Nutricionista+Luisa+Scheffler/@-29.6049469,-51.1627331,980m/data=!3m1!1e3!4m17!1m10!3m9!1s0x951945045b13d355:0xddad8d7797614193!2sNutricionista+Luisa+Scheffler!8m2!3d-29.6049179!4d-51.1629429!10e5!14m1!1BCgIgARICCAI!16s%2Fg%2F11vyffy8db!3m5!1s0x951945045b13d355:0xddad8d7797614193!8m2!3d-29.6049179!4d-51.1629429!16s%2Fg%2F11vyffy8db?entry=ttu&g_ep=EgoyMDI2MDkxNS4wIKXMDSoASAFQAw%3D%3D",
+    "https://www.google.com/maps/place/Alexandra+D.+Petry+I+Nutricionista+Cl%C3%ADnica+e+Esportiva+em+Novo+Hamburgo/@-29.6912225,-51.1272169,979m/data=!3m1!1e3!4m15!1m8!3m7!1s0x95194313e3d54ef7:0xaf9a49855b655981!2sAlexandra+D.+Petry+I+Nutricionista+Cl%C3%ADnica+e+Esportiva+em+Novo+Hamburgo!8m2!3d-29.6910819!4d-51.1272354!10e5!16s%2Fg%2F11qr9fkwj9!3m5!1s0x95194313e3d54ef7:0xaf9a49855b655981!8m2!3d-29.6910819!4d-51.1272354!16s%2Fg%2F11qr9fkwj9?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D",
   seo: {
     title:
-      "Nutricionista para emagrecimento e vitalidade para mulheres em Ivoti, Luisa Scheffler",
+      "Nutricionista Clínica e Esportiva em Novo Hamburgo - Alexandra Petry",
     description:
-      "Luisa Scheffler, nutricionista clínica em Ivoti/RS (CRN-2 19231D). Acompanhamento individualizado em emagrecimento sustentável e vitalidade feminina na clínica Derma Lumen. Presencial e online.",
-    url: "https://studiotche.github.io/nutricionista-luisascheffler/",
+      "Alexandra Petry, nutricionista clínica e esportiva em Novo Hamburgo/RS. Atendimento para quem busca resultados consistentes em saúde, emagrecimento ou performance.",
+    url: "https://nutrialexandrapetry.my.canva.site/",
     ogImage: "/assets/images/nutricionista-luisa-scheffler-hero.webp",
   },
   hero: {
-    eyebrow: "Nutrição Clínica Feminina & Vitalidade",
+    eyebrow: "Nutrição Clínica e Esportiva",
     title:
-      "Nutricionista para emagrecimento e vitalidade para mulheres em Ivoti, Luisa Scheffler",
-    titleHighlight: "Luisa Scheffler",
+      "Nutricionista Clínica e Esportiva em Novo Hamburgo",
+    titleHighlight: "Alexandra Petry",
     tagline:
-      "Coma com equilíbrio, emagreça sem dietas restritivas e recupere sua energia.",
+      "Atendimento para quem busca resultados consistentes em saúde, emagrecimento ou performance",
     description:
-      "Acompanhamento nutricional individualizado em Ivoti, com estratégias sustentáveis para emagrecimento, equilíbrio hormonal, disposição e bem-estar.",
+      "Atendimento para quem busca resultados consistentes em saúde, emagrecimento ou performance. Consultas presenciais em Novo Hamburgo e Online.",
   },
   about: {
-    eyebrow: "Olá, eu sou a Luisa Scheffler!",
+    eyebrow: "Muito prazer, sou a Alexandra Petry!",
     title:
-      "Nutrição clínica humanizada para o emagrecimento e a vitalidade feminina",
-    titleHighlight: "vitalidade feminina",
+      "Resultados de forma sustentável e alinhada à realidade de cada paciente",
+    titleHighlight: "sustentável e alinhada",
     paragraphs: [
-      "Olá, sou a Luisa Scheffler! Nutricionista clínica apaixonada por guiar mulheres a recuperarem sua autoestima, energia e bem-estar por meio de uma alimentação equilibrada, prática e prazerosa — sem culpa ou radicalismos.",
-      "No meu consultório em Ivoti, localizado na clínica Derma Lumen, compreendo que cada corpo, rotina e história são únicos. Meu compromisso profissional é oferecer um suporte integral e empático, desenhando estratégias nutricionais conscientes e personalizadas que realmente funcionam no seu dia a dia.",
-      "Acredito que o emagrecimento duradouro não vem de dietas que causam frustração e efeito sanfona, mas sim de uma reeducação alimentar gentil aliada à ciência nutricional, proporcionando saciedade, saúde metabólica e disposição renovada para todas as fases da sua vida.",
+      "Sou Nutricionista especializada em Avaliação Metabólica e Nutricional pelo Centro de Ensino Dr. Eric Slywitch, com aprimoramento em Nutrição e Suplementação Esportiva e Saúde Intestinal.",
+      "Trabalho com acompanhamento nutricional para adultos que buscam melhorar a saúde, a composição corporal, a performance física ou a estética, por meio de estratégias alimentares planejadas de acordo com suas necessidades, objetivos e rotina.",
+      "O acompanhamento nutricional é conduzido com base em avaliação individual, análise de exames (quando necessário) e ajustes progressivos, com o objetivo de otimizar resultados de forma sustentável e alinhada à realidade de cada paciente.",
     ],
   },
   assets: {
@@ -73,43 +73,51 @@ export const specialties = [
   {
     number: "01",
     icon: "/assets/images/emagrecimento.svg",
-    title: "Emagrecimento Feminino Sustentável",
-    text: "Estratégias personalizadas e acolhedoras para perda de gordura sem passar fome e sem dietas radicais.",
+    title: "Emagrecimento",
+    text: "Sem abordagens restritivas ou extremismos, te ajudo a emagrecer de forma leve, prazerosa e sustentável.",
     detail:
-      "Abordagem focada em saciedade, controle do apetite e proteção metabólica, quebrando o ciclo do efeito sanfona com autonomia e leveza.",
+      "Emagrecimento sustentável com base nas suas preferências alimentares.",
   },
   {
     number: "02",
     icon: "/assets/images/corrida.svg",
-    title: "Vitalidade & Equilíbrio Hormonal",
-    text: "Mais disposição para o seu dia a dia, melhor qualidade do sono e regulação do cansaço e das oscilações hormonais.",
+    title: "Hipertrofia e Performance",
+    text: "Vamos alinhar sua alimentação com sua rotina de exercícios, ajustando os macro e micronutrientes.",
     detail:
-      "Alimentação estratégica para amenizar sintomas de TPM, estresse, retenção de líquidos e falta de energia, restaurando seu bem-estar integral.",
+      "Para você performar melhor e ter mais resultados nos seus treinos e atividades.",
   },
   {
     number: "03",
     icon: "/assets/images/maca.svg",
-    title: "Reeducação Alimentar & Rotina Real",
-    text: "Comida de verdade, orientações práticas e flexibilidade que se encaixam na sua rotina profissional e familiar.",
+    title: "Saúde Intestinal",
+    text: "Você vive com a barriga estufada, intestino preso, desconfortos e sem energia?",
     detail:
-      "Aprenda a montar pratos nutritivos e saborosos, fazer boas escolhas no supermercado e manter a constância sem abrir mão da vida social.",
+      "Vamos cuidar da sua saúde intestinal e resolver tudo isso de forma eficaz.",
   },
+  {
+    number: "04",
+    icon: "/assets/images/emagrecimento.svg",
+    title: "Saúde e Controle de Doenças",
+    text: "Busca por mudanças de hábitos e uma alimentação que te proporcionem mais saúde e disposição?",
+    detail:
+      "Te mostro como a escolha dos alimentos impactam nessas questões e como reverter exames.",
+  }
 ] as const;
 
 export const pillars = [
   {
     title: "Avaliar",
-    text: "Escuta atenta do seu histórico de saúde, rotina, exames laboratoriais, preferências alimentares e particularidades femininas.",
+    text: "Avaliação individual e definição de estratégias focadas nas suas necessidades.",
     icon: "/assets/images/pagina.svg",
   },
   {
     title: "Planejar",
-    text: "Construção de um plano alimentar individualizado, saboroso e viável, unindo evidências científicas e praticidade para sua vida.",
+    text: "Planejamento alimentar personalizado e entrega de materiais complementares (guia de compras, receitas e mais).",
     icon: "/assets/images/alvo.svg",
   },
   {
     title: "Acompanhar",
-    text: "Suporte próximo e contínuo para ajustar desafios da rotina, celebrar conquistas e garantir evolução consistente e duradoura.",
+    text: "Suporte contínuo durante o período para resolução de dúvidas ou ajustes que forem necessários.",
     icon: "/assets/images/pessoas.svg",
   },
 ] as const;
@@ -122,89 +130,63 @@ export const testimonials: {
   profile?: string;
 }[] = [
     {
-      name: "Rubia Ariane Klein",
-      city: "Ivoti/RS",
-      dateTime: "2025-05-15",
-      text: "Minha experiência com a Luisa tem sido excelente. Além de ser muito profissional, ela é acolhedora, atenciosa, dedicada e sempre disposta a ouvir. Explica tudo com clareza, entende minhas necessidades e adapta o plano alimentar de forma prática e realista para o meu dia a dia. Recomendo de olhos fechados!",
+      name: "Paciente Satisfeita",
+      city: "Novo Hamburgo/RS",
+      dateTime: "2024-05-15",
+      text: "A Alexandra foi fundamental no meu processo de reeducação alimentar, com orientações super práticas pro meu dia a dia.",
       profile: site.googleProfile,
     },
     {
-      name: "Rosvita Backes Exner",
-      city: "Ivoti/RS",
-      dateTime: "2026-02-15",
-      text: "Esta profissional é incrível! Muito sensível e atenciosa com as necessidades de cada pessoa. Recomendo fortemente! É ela quem cuida da minha dieta e controla a minha diabete 🥰",
+      name: "João Carlos",
+      city: "Novo Hamburgo/RS",
+      dateTime: "2024-02-15",
+      text: "Melhorei minha performance nos treinos significativamente após começar o acompanhamento com a nutri Alexandra.",
       profile: site.googleProfile,
     },
     {
-      name: "Helena De Lima",
-      city: "Ivoti/RS",
-      dateTime: "2025-05-18",
-      text: "Procurei a nutricionista Luisa por problemas de saúde como diabetes e hipertensão. Ela me passou várias orientações e sempre que preciso a chamo e prontamente sou atendida com muita atenção. A Luisa é super acolhedora e muito dedicada ao dia a dia da paciente. Sou muito grata!",
+      name: "Marina S.",
+      city: "Novo Hamburgo/RS",
+      dateTime: "2024-05-18",
+      text: "Recomendo muito! Uma profissional extremamente competente que me ajudou a resolver problemas intestinais de anos.",
       profile: site.googleProfile,
-    },
-    {
-      name: "Jader Martin Staudt",
-      city: "",
-      text: "Luisa é muito atenciosa e procura sempre nos motivar para atingir os resultados propostos, além de montar planos personalizados, levando em consideração a realidade de cada um.",
-      profile: site.googleProfile,
-    },
-    {
-      name: "Vanderléia Finger",
-      city: "",
-      text: "Ótima profissional, muito atenciosa e sempre disposta a sanar dúvidas, recomendo a todos que estão dispostos a alcançar seus objetivos.",
-      profile: site.googleProfile,
-    },
-    {
-      name: "Mônica Denise Da Silva",
-      city: "",
-      text: "Cardápio fácil de seguir e adaptado as minhas necessidades.",
-      profile: site.googleProfile,
-    },
+    }
   ];
 
 export const locations = [
   {
-    city: "Ivoti",
-    address: "Av. Presidente Lucena, 2159 · Sala 223",
+    city: "Novo Hamburgo",
+    address: "R. Joaquim Nabuco, 1044",
     district:
-      "Clínica Derma Lumen · Bairro Harmonia · Ivoti/RS · CEP 93900-000",
+      "Centro · Novo Hamburgo/RS · CEP 93310-002",
     type: "Presencial · Online · Particular",
   },
 ] as const;
 
 export const faqs = [
   [
-    "Qual é a abordagem da consulta para emagrecimento feminino?",
-    "Uma abordagem personalizada e acolhedora. Investigamos suas necessidades metabólicas, rotina diária, histórico com dietas e fatores hormonais. O plano alimentar é construído para promover emagrecimento sustentável com saciedade e sem privações severas.",
-  ],
-  [
-    "Como a nutrição pode me ajudar a ter mais vitalidade e energia?",
-    "A fadiga, o desânimo e a oscilação de humor muitas vezes estão associados a carências de micronutrientes, má distribuição energética e picos glicêmicos. Com ajustes estratégicos na alimentação, conseguimos regular seus níveis de energia e vitalidade ao longo de todo o dia.",
-  ],
-  [
-    "Preciso cortar carboidratos ou parar de comer o que gosto para emagrecer?",
-    "Não! Restrições radicais são as principais responsáveis pelo efeito sanfona e pela perda de adesão. Trabalhamos com equilíbrio, escolhendo as melhores fontes, ajustando as quantidades certas para o seu corpo e mantendo os momentos de prazer à mesa.",
-  ],
-  [
     "Onde acontecem as consultas presenciais?",
-    "Os atendimentos presenciais acontecem na clínica Derma Lumen, situada na Av. Presidente Lucena, 2159, sala 223, Bairro Harmonia, Ivoti - RS, CEP 93900-000.",
+    "Os atendimentos presenciais acontecem em Novo Hamburgo/RS. Entre em contato para mais detalhes sobre o endereço.",
   ],
   [
     "Você também realiza atendimentos online?",
-    "Sim! Além das consultas presenciais em Ivoti, realizo atendimento nutricional online para pacientes de todo o Brasil e exterior, com a mesma profundidade, plano individualizado e suporte contínuo via WhatsApp.",
+    "Sim! Além das consultas presenciais, realizo atendimento nutricional online para pacientes de todo o Brasil.",
   ],
   [
-    "Como faço para agendar a minha consulta?",
-    `Basta clicar nos botões de agendamento desta página para entrar em contato diretamente pelo WhatsApp ${site.phoneDisplay}. Conversamos sobre suas necessidades e encontramos o melhor dia e horário para o seu atendimento.`,
+    "A estratégia muda conforme o meu objetivo?",
+    "Sim! O plano alimentar pode ser mais detalhado e calculado ou mais flexível, de acordo com o que você busca, seu momento de vida e o nível de controle necessário para alcançar resultados.",
   ],
   [
-    "Você atende por convênio médico?",
-    "Os atendimentos são exclusivamente particulares, o que nos permite consultas com tempo de escuta estendido, plano verdadeiramente personalizado e suporte humanizado. Fornecemos recibo para que você possa solicitar reembolso junto ao seu plano de saúde, caso tenha esse benefício.",
+    "Como funcionam as orientações?",
+    "Você recebe orientações com explicação, não regras soltas. Durante o acompanhamento, você entende o motivo de cada orientação alimentar para que saiba o que está fazendo, por que está fazendo e como isso impacta seus resultados.",
   ],
   [
-    "Como funciona a primeira consulta?",
-    "Realizamos uma anamnese aprofundada sobre sua saúde, hábitos, rotina, sintomas, exames laboratoriais e objetivos. A partir disso, definimos metas realistas e elaboramos um plano alimentar feito exclusivamente para você.",
+    "Como funciona o contato e ajustes após a consulta?",
+    "Após a consulta, entro em contato em 1 a 2 semanas para entender como as coisas estão funcionando na rotina, esclarecer dúvidas e ajustar o que for necessário para manter o processo em andamento.",
   ],
+  [
+    "Você avalia exames?",
+    "Sim. Quando indicado, avalio exames e prescrevo suplementações de forma individualizada, sempre considerando objetivos, sinais clínicos e necessidades específicas."
+  ]
 ] as const;
 
-export const whatsappUrl = `https://wa.me/${site.phoneLink}?text=${encodeURIComponent("Olá, Luisa! Gostaria de agendar uma consulta.")}`;
+export const whatsappUrl = \`https://wa.me/\${site.phoneLink}?text=\${encodeURIComponent("Olá, Alexandra! Gostaria de agendar uma consulta.")}\`;
