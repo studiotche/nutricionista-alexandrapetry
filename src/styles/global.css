@@ -760,7 +760,7 @@ summary:focus-visible {
 }
 
 .services-section .eyebrow-light {
-  color: var(--sage);
+  color: var(--sage-dark);
 }
 
 .section-heading {
@@ -1568,7 +1568,7 @@ summary:focus-visible {
 .footer-address {
   max-width: 240px;
   margin: 0 0 14px;
-  color: rgba(255, 255, 255, .65);
+  color: rgba(255, 255, 255, .9);
   font-size: .85rem;
   line-height: 1.5;
 }
@@ -1582,7 +1582,7 @@ summary:focus-visible {
   flex-direction: column;
   gap: 2px;
   margin-top: 14px;
-  color: rgba(255, 255, 255, .65);
+  color: rgba(255, 255, 255, .9);
   font-size: .8rem;
 }
 
@@ -1662,7 +1662,7 @@ summary:focus-visible {
   gap: 30px;
   padding-top: 24px;
   border-top: 1px solid rgba(255, 255, 255, .12);
-  color: rgba(255, 255, 255, .62);
+  color: rgba(255, 255, 255, .9);
   font-size: .75rem;
 }
 
@@ -1673,7 +1673,7 @@ summary:focus-visible {
 }
 
 .footer-legal a {
-  color: rgba(255, 255, 255, .62);
+  color: rgba(255, 255, 255, .9);
   transition: color .28s ease;
 }
 
