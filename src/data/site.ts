@@ -23,7 +23,7 @@ export const site = {
     "https://www.google.com/maps/place/Alexandra+D.+Petry+I+Nutricionista+Cl%C3%ADnica+e+Esportiva+em+Novo+Hamburgo/@-29.6912225,-51.1272169,979m/data=!3m1!1e3!4m15!1m8!3m7!1s0x95194313e3d54ef7:0xaf9a49855b655981!2sAlexandra+D.+Petry+I+Nutricionista+Cl%C3%ADnica+e+Esportiva+em+Novo+Hamburgo!8m2!3d-29.6910819!4d-51.1272354!10e5!16s%2Fg%2F11qr9fkwj9!3m5!1s0x95194313e3d54ef7:0xaf9a49855b655981!8m2!3d-29.6910819!4d-51.1272354!16s%2Fg%2F11qr9fkwj9?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D",
   googleRating: {
     score: "5,0",
-    reviews: 15,
+    reviews: 40,
   },
   mapsEmbedUrl:
     "https://maps.google.com/maps?q=-29.6910819,-51.1272354&z=17&hl=pt-BR&output=embed",
