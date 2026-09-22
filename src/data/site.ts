@@ -189,4 +189,4 @@ export const faqs = [
   ]
 ] as const;
 
-export const whatsappUrl = \`https://wa.me/\${site.phoneLink}?text=\${encodeURIComponent("Olá, Alexandra! Gostaria de agendar uma consulta.")}\`;
+export const whatsappUrl = `https://wa.me/${site.phoneLink}?text=${encodeURIComponent("Olá, Alexandra! Gostaria de agendar uma consulta.")}`;
