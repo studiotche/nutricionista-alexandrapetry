@@ -123,37 +123,37 @@ export const testimonials: {
 }[] = [
     {
       name: "Mateus Costa",
-      city: "Avaliação no Google",
+      city: "Novo Hamburgo/RS",
       text: "Excelente nutri!! Recomendo para todos! Ela monta o plano alimentar conforme você gosta dos alimentos e também ajustar as refeições de acordo com sua rotina. Minha saúde intestinal mudou completamente depois que passei a ter o acompanhamento nutricional.",
       profile: site.googleProfile,
     },
     {
       name: "Adriana Arantes",
-      city: "Avaliação no Google",
+      city: "Novo Hamburgo/RS",
       text: "Estou fazendo o tratamento com a nutricionista Alexandra D Petry desde agosto de 2025, eliminei 18k , e não passei fome! Plano alimentar dentro da realidade! Recomendo muito!!",
       profile: site.googleProfile,
     },
     {
       name: "cristian worc",
-      city: "Avaliação no Google",
+      city: "Novo Hamburgo/RS",
       text: "A Dra. Alexandra é uma profissional extremamente atenciosa e dedicada. Seu atendimento é excelente, sempre ouvindo com cuidado e criando planos personalizados que realmente atendem às necessidades do paciente. Graças ao trabalho dela, minha mãe conseguiu — e continua conseguindo — evoluir de forma magnífica. Recomendo fortemente o trabalho da Dra. Alexandra pela sua competência, empatia e comprometimento com os resultados.",
       profile: site.googleProfile,
     },
     {
       name: "juliana oliveira",
-      city: "Avaliação no Google",
+      city: "Novo Hamburgo/RS",
       text: "Excelente profissional! Me ajudou a alcançar meus objetivos sem frescuras! O básico que funciona!",
       profile: site.googleProfile,
     },
     {
       name: "Natalia V",
-      city: "Avaliação no Google",
+      city: "Novo Hamburgo/RS",
       text: "Alexandra é uma nutricionista maravilhosa! Depois de ter várias experiências com 5 nutricionistas diferentes, ela foi a única que realmente adaptou a dieta 100% à minha rotina. Ela me passou um plano muito prático e realista. Depois de um mês já comecei ver os resultados no emagrecimento. Recomendo muito ela!",
       profile: site.googleProfile,
     },
     {
       name: "Ana Carolina de Souza Rauter",
-      city: "Avaliação no Google",
+      city: "Novo Hamburgo/RS",
       text: "Alexandra é uma profissional impecável! Sua prescrição é prazerosa e prática! Ela fez uma análise de toda minha rotina e me ajudou a organizar o plano alimentar nele (desde quais alimentos e quando prepará-los). Tbm é muito atenciosa com os pacientes nos intervalos entre as consultas, dando suporte e buscando ajudar. Adorei tê-la encontrado!",
       profile: site.googleProfile,
     }
