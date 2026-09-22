@@ -1,10 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <defs>
-    <style>
-      .bg { fill: #515d53; }
-      .initials { font-family: 'Newsreader', Georgia, serif; font-size: 28px; font-weight: 400; fill: #e0cfba; }
-    </style>
-  </defs>
-  <rect width="64" height="64" rx="16" class="bg" />
-  <text x="50%" y="54%" text-anchor="middle" dominant-baseline="middle" class="initials">AP</text>
+  <circle cx="32" cy="32" r="32" fill="#7a8b7c"/>
+  <path fill="#ededed" d="M32,50 C15,50 15,20 32,12 C49,20 49,50 32,50 Z" />
+  <path fill="none" stroke="#7a8b7c" stroke-width="3" stroke-linecap="round" d="M32,50 L32,25" />
 </svg>
