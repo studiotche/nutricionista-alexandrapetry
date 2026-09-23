@@ -738,7 +738,6 @@ const jsonLd = {
   if (heroCopy && isDesktopHero) {
     const heroEyebrow = heroCopy.querySelector<HTMLElement>(".eyebrow");
     const heroTitle = heroCopy.querySelector<HTMLElement>("h1");
-    const heroTagline = heroCopy.querySelector<HTMLElement>(".hero-tagline");
     const heroLead = heroCopy.querySelector<HTMLElement>(".lead");
     const heroActions = heroCopy.querySelector<HTMLElement>(".hero-actions");
     const heroLocation = heroCopy.querySelector<HTMLElement>(".location-note");
@@ -800,7 +799,6 @@ const jsonLd = {
 
     const startHeroReveal = () => {
       const titleWords = splitHeroWords(heroTitle);
-      const taglineWords = splitHeroWords(heroTagline);
       const leadWords = splitHeroWords(heroLead);
       heroCopy.classList.add("hero-reveal-ready");
       heroCard?.classList.add("hero-reveal-ready");
@@ -808,9 +806,7 @@ const jsonLd = {
       const eyebrowDelay = 0.05;
       const titleDelay = 0.12;
       const titleLines = scheduleHeroWords(titleWords, titleDelay);
-      const taglineDelay = titleDelay + titleLines * 0.07 + 0.24;
-      const taglineLines = scheduleHeroWords(taglineWords, taglineDelay);
-      const leadDelay = taglineDelay + taglineLines * 0.07 + 0.24;
+      const leadDelay = titleDelay + titleLines * 0.07 + 0.24;
       const leadLines = scheduleHeroWords(leadWords, leadDelay);
       const actionsDelay = leadDelay + leadLines * 0.07 + 0.24;
       const locationDelay = actionsDelay + 0.3;
